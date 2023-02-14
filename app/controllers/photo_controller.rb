@@ -18,4 +18,10 @@ class PhotoController < ApplicationController
     end
     redirect_to('/')
   end
+
+  def delete
+    @post = Post.find(params[:id])
+    @post.destroy
+    redirect_to('/')
+  end
 end
