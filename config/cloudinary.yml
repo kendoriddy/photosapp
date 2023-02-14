@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dbrp7cwkv
+  api_key: '568265148499494'
+  api_secret: Pl8DmbwCCW_M8iefx3-Gegly-2c
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: dbrp7cwkv
+  api_key: '568265148499494'
+  api_secret: Pl8DmbwCCW_M8iefx3-Gegly-2c
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: dbrp7cwkv
+  api_key: '568265148499494'
+  api_secret: Pl8DmbwCCW_M8iefx3-Gegly-2c
+  enhance_image_tag: true
+  static_file_support: false
