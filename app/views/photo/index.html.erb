@@ -29,8 +29,8 @@
                       </div>
                       <p class="post-caption"><%= post.caption %></p>
                       <%= form_tag(delete_post_path(post), method: :delete) do %>
-  <%= submit_tag "Delete" %>
-<% end %>
+                        <%= submit_tag "Delete" %>
+                        <% end %>
 
               </div>
           <% end %>
