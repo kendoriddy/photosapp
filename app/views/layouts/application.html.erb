@@ -2,6 +2,18 @@
 <html>
   <head>
     <title>Photosapp</title>
+    <script src="https://js.pusher.com/7.2/pusher.min.js"></script>
+        <%
+=begin%>
+ add pusher script 
+<%
+=end%>
+        <script>
+          var pusher = new Pusher('PUSHER_APP_KEY', {
+          cluster: 'eu',
+          encrypted: true
+        });
+        </script>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
